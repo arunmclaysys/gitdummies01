@@ -2,7 +2,7 @@
 
 #Constructor
 class Soldier:
-    def __init__(self, armor, num_weapons):  #these are instace variables
+    def __init__(self, armor, num_weapons):  #these are instance variables
         self.armor = armor
         self.num_weapons = num_weapons
 

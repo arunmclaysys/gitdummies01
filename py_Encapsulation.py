@@ -21,6 +21,6 @@ print(mywall.__height) #output is 120
 print(mywall.get_height()) #output is 10- it is like instance variables
 
 mywall._Wall__height = 130
-print(mywall._Wall__height) #output is 130
+print(mywall._Wall__height) #output is 130 #This technique is known as name mangling. please dont use dot here.
 
 print(mywall.get_height()) #output is 130
